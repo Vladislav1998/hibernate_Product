@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+    <property name="connection.url">jdbc:mysql://localhost:3306/DB_labs</property>
+    <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+    <property name="connection.password"></property>
+    <property name="connection.username">root</property>
+
+    <!-- NOTE that after automapping with IDEA property username and password will delete -->
+    <!--and will be:  Initial SessionFactory failedorg.hibernate.service.spi.ServiceException: Unable to create requested service-->
+    <property name="hbm2ddl.auto">update</property>
+    <mapping class="model.AvailabitilyEntity"/>
+    <mapping class="model.ProductEntity"/>
+    <mapping class="model.StoreEntity"/>
+    <mapping class="model.SupplierEntity"/>
+    <mapping class="model.SupplyEntity"/>
+  </session-factory>
+</hibernate-configuration>
