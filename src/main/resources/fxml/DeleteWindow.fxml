@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="143.0" prefWidth="228.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.DeleteController">
+   <children>
+      <Button layoutX="78.0" layoutY="95.0" mnemonicParsing="false" onAction="#doDelete" text="Delete" />
+      <TextField fx:id="idField" layoutX="29.0" layoutY="55.0" />
+      <Label layoutX="29.0" layoutY="26.0" text="ID Product to delete" />
+   </children>
+</AnchorPane>

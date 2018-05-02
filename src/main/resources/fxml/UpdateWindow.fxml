@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane fx:controller="controllers.UpdateController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="282.0" prefWidth="251.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button layoutX="98.0" layoutY="243.0" mnemonicParsing="false" onAction="#doUpdate" text="Update" />
+      <TextField fx:id="titleField" layoutX="21.0" layoutY="125.0" prefHeight="25.0" prefWidth="209.0" AnchorPane.leftAnchor="18.0" />
+      <TextArea fx:id="descriptionArea" layoutX="21.0" layoutY="182.0" prefHeight="46.0" prefWidth="209.0" AnchorPane.leftAnchor="18.0" />
+      <Label layoutX="23.0" layoutY="102.0" text="New Title" AnchorPane.leftAnchor="18.0" />
+      <Label layoutX="21.0" layoutY="158.0" text="New Description" AnchorPane.leftAnchor="18.0" />
+      <Label layoutX="24.0" layoutY="24.0" text="ID Product to update" AnchorPane.leftAnchor="18.0" />
+      <TextField fx:id="idField" layoutX="18.0" layoutY="57.0" prefHeight="25.0" prefWidth="112.0" AnchorPane.leftAnchor="18.0" />
+   </children>
+</AnchorPane>

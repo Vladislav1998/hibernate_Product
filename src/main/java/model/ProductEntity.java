@@ -5,6 +5,7 @@ import javax.persistence.*;
 @Entity
 @Table(name = "product", schema = "DB_labs")
 public class ProductEntity {
+
     private int idProd;
     private String title;
     private String description;

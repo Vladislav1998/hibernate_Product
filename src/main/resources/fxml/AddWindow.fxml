@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="310.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.AddController">
+   <children>
+      <TextField fx:id="titleField" layoutX="26.0" layoutY="81.0" prefHeight="25.0" prefWidth="255.0" />
+      <TextArea fx:id="descriptionArea" layoutX="26.0" layoutY="127.0" prefHeight="110.0" prefWidth="255.0" />
+      <TextField fx:id="idField" layoutX="26.0" layoutY="34.0" prefHeight="25.0" prefWidth="255.0" />
+      <Button layoutX="26.0" layoutY="259.0" mnemonicParsing="false" onAction="#doAdd" prefHeight="25.0" prefWidth="134.0" text="Add" />
+      <Label layoutX="26.0" layoutY="14.0" text="ID" />
+      <Label layoutX="26.0" layoutY="66.0" prefHeight="17.0" prefWidth="31.0" text="Title" />
+      <Label layoutX="24.0" layoutY="110.0" text="Description" />
+   </children>
+</AnchorPane>
